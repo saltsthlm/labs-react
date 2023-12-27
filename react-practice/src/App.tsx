@@ -1,19 +1,19 @@
+import { Routes, Route } from "react-router-dom";
 import "./App.css";
-import Home from "./Components/Home";
-import { Route, Routes } from "react-router-dom";
 import About from "./Components/About";
+import Layout from "./Components/Layout";
+import Home from "./Components/Home";
 
 function App() {
   // const [count, setCount] = useState(0);
 
   return (
-    <>
-      <Routes>
-        <Route path="/about" element={<About />}></Route>
-        <Route path="/" element={<Home />}></Route>
-      </Routes>
-    </>
-  );
+		<>
+			<Layout />
+
+		
+		</>
+	);
 
   {
     /* <div>
