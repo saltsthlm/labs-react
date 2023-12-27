@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <nav>
-      <ul>
+      <ul className="list-none">
         <li>
           <Link to="/">Home</Link>
         </li>
